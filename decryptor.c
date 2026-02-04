@@ -13,7 +13,7 @@ int main(int argc, char** argv)
     }
 
     printf("Enter encoder string: ");
-    char* encoder = malloc(128);
+    char* encoder = malloc(4096);
     if(!encoder)
     {
         perror("allocation error\n");

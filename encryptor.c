@@ -12,7 +12,7 @@ int main(int argc, char** argv)
         return 1;
     }
 
-    char* encoder = (char*) malloc(128);
+    char* encoder = (char*) malloc(4096);
     if(!encoder)
     {
         perror("allocation error\n");
