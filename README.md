@@ -44,7 +44,7 @@ This will produce executables `encryptor` and `decryptor`.
 ./encryptor <filename>
 ```
 
-1. Enter the encoder string when prompted (max 128 characters).
+1. Enter the encoder string when prompted (max 4096 characters).
 2. The encrypted file will be saved as `encrypted` in the current directory.
 
 Example:
